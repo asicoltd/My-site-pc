@@ -1,0 +1,125 @@
+body{
+  font-family: Bebas Neue;
+}
+.menuspace{
+  margin-top: 20px;
+  margin-left: 900px;
+  word-spacing: 40px;
+}
+.width{
+  float: left;
+  width: 40%;
+  margin-left: 10px;
+}
+#head1{
+  color:#363958;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 2%;
+  margin-top: 150px;
+  margin-left: 120px;
+  }
+#head2{
+  color:#ff8367;
+  font-weight: bold;
+  font-size: 110px;
+  line-height: 2%;
+  margin-left: 120px;
+  margin-bottom: 80px;
+
+}
+.ltlTxt{
+  margin-left: 120px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  line-height: 50%;
+
+}
+.button{
+  text-decoration: none;
+  color: #FFFFFF;
+  background-image: linear-gradient(#FF8063,#F46060);
+  padding:10px;
+  margin-left: 120px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  border: 10px;
+  width: 25%;
+}
+img{
+  width: 100%;
+}
+.img1{
+  margin-top: 30px;
+  float: right;
+  margin-right: 50px;
+  width: 40%;
+}
+.img2{
+  margin-top: 10%;
+  float: left;
+  margin-left: 50px;
+  width: 45%;
+
+}
+.About{
+  color: #363958;
+  margin-top: 50%;
+  margin-left: 55%;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.about{
+  font-family: arial;
+  max-width: 400px;
+  margin-left: 55%;
+  color: #3E3E3E;
+}
+.button2{
+  text-decoration: none;
+  color: #FFFFFF;
+  background-image: linear-gradient(#FF8063,#F46060);
+  padding:10px;
+  margin-left: 215px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  border: 10px;
+}
+.bgcolor{
+  margin-top:10%;
+  background-color:#F8F9FC;
+  padding-bottom: 35%;
+}
+#latest{
+ color: #F46060;
+}
+#latest1{
+  font-size: 50px;
+  margin-left: 40%;
+  padding-top: 5%;
+color: #363958;
+}
+.img3{
+  box-shadow:1px 2px rgba(0, 0, 0, 0.034);
+  border-radius: 5%;
+  margin-left: 10%;
+  float: left;
+  width: 20%;
+  padding: 1%;
+  background-color: white;
+}
+.img4{
+  box-shadow:1px 2px rgba(0, 0, 0, 0.034);
+  margin-left: 5%;
+  float: left;
+  width: 20%;
+  border-radius: 5%;
+  padding: 1%;
+  background-color: white;
+}
