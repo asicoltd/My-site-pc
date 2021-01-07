@@ -55,11 +55,10 @@ body{
   margin-top: 120px;
 }
 .ltlTxt{
-  margin-left: 120px;
   font-family: Roboto;
-  font-size: 1vw;
-  font-style: bold;
-  text-align: left;
+  max-width: 400px;
+  margin-left: 20%;
+  color: #3E3E3E;
 
 }
 /*button*/
@@ -100,7 +99,7 @@ body{
   margin-bottom: 10px;
 }
 .about{
-  font-family: arial;
+  font-family: Roboto;
   max-width: 400px;
   margin-left: 55%;
   color: #3E3E3E;
