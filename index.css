@@ -1,10 +1,39 @@
 body{
   font-family: Bebas Neue;
 }
-.menuspace{
-  margin-top: 20px;
-  margin-left: 900px;
-  word-spacing: 40px;
+.menulinks{
+  text-decoration: none;
+  padding:7px;
+  margin-left: 32%;
+  font-weight: bold;
+  font-size: 20px;
+  border: 0px;
+  width: 10%;
+}
+.menulinks1{
+  text-decoration: none;
+  padding:7px;
+  font-weight: bold;
+  font-size: 20px;
+  border: 0px;
+  width: 10%;
+}
+
+.menulinks:hover {
+  background-color: black;
+  color: white;
+}
+.menulinks1:hover {
+  background-color: black;
+  color: white;
+}
+.bgcolor1{
+  padding-bottom: 50px;
+
+}
+.asico{
+  font-weight: bold;
+  font-family: Roboto;
 }
 .width{
   float: left;
@@ -14,35 +43,29 @@ body{
 #head1{
   color:#363958;
   font-weight: bold;
-  font-size: 100px;
-  line-height: 2%;
+  font-size: 7vw;
   margin-top: 120px;
   margin-left: 120px;
+  margin-bottom: 1px;
   }
 #head2{
   color:#ff8367;
   font-weight: bold;
-  font-size: 110px;
-  line-height: 2%;
-  margin-left: 120px;
-  margin-bottom: 80px;
-
+  font-size: 7vw;
+  margin-top: 120px;
 }
 .ltlTxt{
   margin-left: 120px;
   font-family: Roboto;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
+  font-size: 1vw;
+  font-style: bold;
   text-align: left;
-  line-height: 50%;
 
 }
 /*button*/
 .button{
   text-decoration: none;
-  color: #FFFFFF;
+  color: white;
   background-image: linear-gradient(#FF8063,#F46060);
   padding:10px;
   margin-left: 120px;
@@ -51,6 +74,9 @@ body{
   font-size: 20px;
   border: 10px;
   width: 25%;
+}
+.button:hover {
+  color: black;
 }
 .button2{
   text-decoration: none;
@@ -63,7 +89,9 @@ body{
   font-size: 20px;
   border: 10px;
 }
-
+.button2:hover {
+  color: black;
+}
 .About{
   color: #363958;
   margin-top: 50%;
@@ -103,11 +131,10 @@ img{
   width: 40%;
 }
 .img2{
-  margin-top: 10%;
+  margin-top: 2%;
   float: left;
   margin-left: 40px;
   width: 45%;
-
 }
 .img3{
   box-shadow:1px 2px rgba(0, 0, 0, 0.034);
@@ -176,4 +203,13 @@ img{
   text-align: center;
   font-size: 40px;
   font-family: Roboto;
+}
+
+.asico{
+  font-family:Roboto;
+	font-size: 30px;
+	text-align: center;
+	padding: 0px 50px;
+  line-height: 52px; 
+  text-decoration: none;
 }
