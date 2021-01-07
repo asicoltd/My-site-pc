@@ -193,6 +193,9 @@ img{
   font-size: 15px;
   border: 50px;
 }
+.button3:hover {
+  color: black;
+}
 .connect{
   padding-top: 8%;
   text-align: center;
