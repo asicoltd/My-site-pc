@@ -107,15 +107,16 @@ body{
 
 .bgcolor{
   background-color:#F8F9FC;
-  padding-bottom: 35%;
+  padding-top: 8%;
+  padding-bottom: 8%;
 }
 #latest{
  color: #F46060;
 }
 #latest1{
   font-size: 50px;
-  margin-left: 35vw;
-color: #363958;
+  text-align: center;
+  color: #363958;
 }
 /*Images*/
 img{
@@ -134,22 +135,32 @@ img{
   width: 45%;
 }
 .img3{
+  
   box-shadow:1px 2px rgba(0, 0, 0, 0.034);
   border-radius: 5%;
-  margin-left: 12%;
-  float: left;
+  margin-left: auto;
+  margin-right: auto;
   width: 20%;
   padding: 1%;
-  background-color: white;
+  background-color: rgba(151, 175, 160, 0.068);
 }
-.img4-5{
+.img4{
   box-shadow:1px 2px rgba(0, 0, 0, 0.034);
-  margin-left: 3%;
-  float: left;
+  margin-left: auto;
+  margin-right: auto;
   width: 20%;
   border-radius: 5%;
   padding: 1%;
-  background-color: white;
+  background-color: black;
+}
+.img5{
+  box-shadow:1px 2px rgba(0, 0, 0, 0.034);
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  border-radius: 5%;
+  padding: 1%;
+  background-color: rgba(151, 175, 160, 0.068);
 }
 .imgBG{
   background-image: url(Images/BG1.png);
@@ -160,15 +171,16 @@ img{
   background-repeat: no-repeat;
 }
 .imgmini{
-  width: 30px;
   float: left;
-  padding-left: 43%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  padding: 5px;
 }
-.imgmini2{
-  width: 30px;
-  float: left;
-  padding-left: 2%;
-  padding-bottom: 10%;
+.imgminiRow{
+  content: "";
+  clear: both;
+  display: flex;
 }
 .work{
   padding-top:9%;
@@ -194,7 +206,6 @@ img{
   color: black;
 }
 .connect{
-  padding-top: 8%;
   text-align: center;
   font-size: 20px;
   font-family: Roboto;
